@@ -1,0 +1,28 @@
+/* mixins
+----------------------------------------------------------------------------- */
+// media queries
+@mixin mq($query) {
+  @media (min-width: $query) {
+    @content;
+  }
+}
+
+@mixin wrap {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  @include mq($break-big) {
+    padding-left: 9.16%;
+    padding-right: 9.16%;
+  }
+}
+
+@mixin insulate {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  @include mq($break-big) {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}

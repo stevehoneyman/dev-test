@@ -1,0 +1,54 @@
+/* reset
+----------------------------------------------------------------------------- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+article,
+aside,
+code,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+body {
+  font-family: "inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: none;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}

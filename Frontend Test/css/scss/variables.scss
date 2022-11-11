@@ -1,0 +1,18 @@
+/* variables
+----------------------------------------------------------------------------- */
+
+// Colours brand specific
+$brand-primary: #00698f;
+
+// Colours brand generic
+$white: #fff;
+
+// Fonts
+$font-primary: "Inter", sans-serif;
+
+// Media queries
+$break-vs: 320px; // old phone
+$break-small: 480px; // modern phone
+$break-medium: 880px; // tablet
+$break-large: 1120px; // laptop
+$break-big: 1240px; // desktop
